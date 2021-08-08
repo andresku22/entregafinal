@@ -46,14 +46,18 @@ $alto: 800px;
 
      }
 
+	 &__titulo{
+		padding-left: 20px;
+		color: rgb(229, 180, 241);
+
+
+
+	 }
      &__parrafo{
         font-size: 20px;
         font-family: $fuentePrincipal;
         color: $colorPrincipal;
         padding-left: 20px;
-        
-
-
      }
 
 
@@ -80,6 +84,7 @@ $alto: 800px;
     }
  }
  .divVinos{
+	 padding: 10px;
 	display: flex;
 	flex-direction: column;
 	margin: 5px;
@@ -87,19 +92,19 @@ $alto: 800px;
 
 
 &__imagen{
-   width: 250px;
-	height: 300px;
+	margin: 20px;
+	width: 400px;
+	height: 400px;
 
 }
 &__titulo{
    padding-top: 20px;
-   margin: 5px;
    font-size: 30px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   justify-content: center;
-   text-align: center;
+   font-family: $fuentePrincipal;
    text-transform: capitalize;
-   color:$colorPrincipal
+   color: rgb(229, 180, 241);
+   padding-left: 30px;
+
    
    
 
@@ -107,8 +112,9 @@ $alto: 800px;
 &__parrafo{
    @extend .divIndex__parrafo;
    color: rgb(105, 22, 116);
-   margin: 15px;
-   padding-top: 50px;
+   padding-top: 5px;
+   padding-left: 20px;
+
   
 }
 
@@ -117,6 +123,8 @@ $alto: 800px;
 
 
 .divHabanos{
+	margin: 5px;
+   padding: 10px;
    display: flex;
    flex-direction: column;
 
@@ -131,15 +139,20 @@ $alto: 800px;
 
 &__titulo{
    color: rgb(229, 180, 241);
-   margin: 15px;
+   text-transform: capitalize;
+   padding-left: 30px;
+   padding-top: 20px;
+   font-size: 30px;
 
 
 }
 
 &__parrafo{ 
 	
-	 color: rgb(105, 22, 116);
-	 margin: 15px;
+	font-size: 20px;
+	font-family: $fuentePrincipal;
+	color: $colorPrincipal;
+	padding-left: 20px;	 
 
    
 
@@ -192,11 +205,13 @@ $alto: 800px;
  .divEspumantes{ 
      display: flex;
      flex-direction: column;
-     margin: 30px;
+     margin: 5px;
+	 padding: 10px;
 
 &__imagen{
-width: $ancho/2; /*Ancho de 300*/
-height: $alto/2; /*Alto de 400*/
+	margin: 20px;
+    width: $ancho/2; /*Ancho de 300*/
+    height: $alto/2; /*Alto de 400*/
 
 }
 
@@ -204,7 +219,9 @@ height: $alto/2; /*Alto de 400*/
         text-transform: capitalize;
         color: rgb(229, 180, 241);
         font-family: $fuentePrincipal;
-        font-size: 25px;
+        font-size: 30px;
+		padding-top: 20px;
+		padding-left: 30px;
 
 
 
@@ -215,7 +232,11 @@ height: $alto/2; /*Alto de 400*/
 
 &__parrafo{
     color: $colorPrincipal;
-    text-transform: capitalize;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 20px;
+
+    
 
 
 

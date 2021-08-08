@@ -29,6 +29,9 @@
     margin: 20px;
     width: 400px;
     height: 400px; }
+  .divIndex__titulo {
+    padding-left: 20px;
+    color: #e5b4f1; }
   .divIndex__parrafo, .divVinos__parrafo {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -50,27 +53,29 @@
     margin: 10px; }
 
 .divVinos {
+  padding: 10px;
   display: flex;
   flex-direction: column;
   margin: 5px; }
   .divVinos__imagen {
-    width: 250px;
-    height: 300px; }
+    margin: 20px;
+    width: 400px;
+    height: 400px; }
   .divVinos__titulo {
     padding-top: 20px;
-    margin: 5px;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    color: #88479c; }
+    color: #e5b4f1;
+    padding-left: 30px; }
   .divVinos__parrafo {
     color: #691674;
-    margin: 15px;
-    padding-top: 50px; }
+    padding-top: 5px;
+    padding-left: 20px; }
 
 .divHabanos {
+  margin: 5px;
+  padding: 10px;
   display: flex;
   flex-direction: column; }
   .divHabanos__imagen {
@@ -79,10 +84,15 @@
     width: 300px; }
   .divHabanos__titulo {
     color: #e5b4f1;
-    margin: 15px; }
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 30px; }
   .divHabanos__parrafo {
-    color: #691674;
-    margin: 15px; }
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #88479c;
+    padding-left: 20px; }
 
 .contacto {
   padding-left: 20px;
@@ -110,8 +120,10 @@
 .divEspumantes {
   display: flex;
   flex-direction: column;
-  margin: 30px; }
+  margin: 5px;
+  padding: 10px; }
   .divEspumantes__imagen {
+    margin: 20px;
     width: 300px;
     /*Ancho de 300*/
     height: 400px;
@@ -120,10 +132,14 @@
     text-transform: capitalize;
     color: #e5b4f1;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px; }
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 30px; }
   .divEspumantes__parrafo {
     color: #88479c;
-    text-transform: capitalize; }
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 20px; }
 
 .sectionVinos {
   margin: 15px; }
